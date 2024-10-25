@@ -1,0 +1,2 @@
+defmodule MspOsd do
+end
