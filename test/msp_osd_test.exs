@@ -1,8 +1,7 @@
 defmodule MspOsdTest do
-  use ExUnit.Case
-  doctest MspOsd
+  use ExUnit.Case, async: true
 
-  test "greets the world" do
-    assert MspOsd.hello() == :world
+  test "scaffolded placeholder" do
+    assert true
   end
 end

@@ -20,7 +20,8 @@ defmodule MspOsd.MixProject do
 
   defp deps do
     [
-      {:circuits_uart, "~> 1.5"}
+      {:circuits_uart, "~> 1.5"},
+      {:credo, "~> 1.7", only: [:dev, :test], runtime: false}
     ]
   end
 end
